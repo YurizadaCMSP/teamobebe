@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "script.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video1.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video2.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video3.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video4.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video5.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video6.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video7.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/video8.mp4",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/musica.mp3",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
