@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Romântico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="video-container">
+            <video id="video" class="video" autoplay></video>
+        </div>
+
+        <div id="message" class="message">
+            <h1>Você terminou os vídeos!</h1>
+            <p>Agora, aproveite a música de fundo e leia a mensagem especial para você.</p>
+        </div>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="musica-de-fundo.mp3" type="audio/mp3">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
