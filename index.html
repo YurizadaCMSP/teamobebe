@@ -1,29 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Romântico</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Mensagem Especial</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div id="video-container">
-            <video id="video" class="video" autoplay></video>
-        </div>
-
-        <div id="message" class="message">
-            <h1>Você terminou os vídeos!</h1>
-            <p>Agora, aproveite a música de fundo e leia a mensagem especial para você.</p>
-        </div>
+    <div id="video-container">
+        <video id="video-player" controls></video>
     </div>
-
-    <audio id="background-music" loop>
-        <source src="musica-de-fundo.mp3" type="audio/mp3">
-        Seu navegador não suporta áudio.
-    </audio>
-
-    <script src="script.js"></script>
+    <div id="message" class="hidden">
+        <p id="final-message">Querida, espero que tenha gostado dos vídeos. Aqui está uma mensagem especial para você.</p>
+    </div>
+    <audio id="background-music" src="caminho/para/musica.mp3"></audio>
+    <script src="scripts.js"></script>
 </body>
 </html>
