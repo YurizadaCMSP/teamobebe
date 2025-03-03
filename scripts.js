@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const videoPaths = [
-        'src/video1.mp4',
-        'src/video2.mp4',
-           'src/video3.mp4',
-        'src/video4.mp4',
-           'src/video5.mp4',
-        'src/video6.mp4',
-           'src/video7.mp4',
-        'src/video8.mp4',
+        'https://yurizadacmsp.github.io/teamobebe/src/video1.mp4',
+        'https://yurizadacmsp.github.io/teamobebe/src/video2.mp4',
+           'https://yurizadacmsp.github.io/teamobebe/src/video3.mp4',
+        'https://yurizadacmsp.github.io/teamobebe/src/video4.mp4',
+           'https://yurizadacmsp.github.io/teamobebe/src/video5.mp4',
+        'https://yurizadacmsp.github.io/teamobebe/src/video6.mp4',
+           'https://yurizadacmsp.github.io/teamobebe/src/video7.mp4',
+        'https://yurizadacmsp.github.io/teamobebe/src/video8.mp4',
         // Adicione os caminhos dos outros vídeos
     ];
 
